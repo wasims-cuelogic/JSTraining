@@ -9,7 +9,6 @@ Creating object variables
 
 **/
 
-
 //1. Using a function
 function Apple(type,color){
   this.type = type;
@@ -21,7 +20,6 @@ function Apple(type,color){
 
 var apple = new Apple('macintosh','reddish');
 //console.log(apple.getInfo());
-
 
 
 
@@ -49,9 +47,6 @@ var apple = new function() {
 
 apple.color = "reddish";
 //console.log(apple.getInfo());
-
-
-
 
 /*
 Creating array variables
