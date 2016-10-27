@@ -10,18 +10,18 @@
     
     for (var i = 0; i < 100; i++) {
         arr[i] = i+1;        
-    }    
-
-
+    }
+    
+    
     function printArray(array,start,len){
 
         if(start >= len)
-            return;             
+            return;
         
-        document.write(array[start]+"<br>");
-                 
+        document.write(array[start] + "<br>");
+                         
         printArray(array, start+1, len);
-
+        
     }
 
     printArray(arr,0,arr.length);
