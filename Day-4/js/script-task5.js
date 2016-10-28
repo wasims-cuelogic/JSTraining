@@ -10,7 +10,7 @@ Loop through each of the li and attach a function on it that will alert the valu
   var lis = document.getElementById("parent-list").getElementsByTagName('li');
 
     for (var i=0; i<lis.length; i++) {
-        lis[i].addEventListener('click', doStuff, false);
+        lis[i].addEventListener('click', doStuff);
     }
 
     function doStuff() {
